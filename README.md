@@ -1,10 +1,10 @@
 # KernelLens
 
-Requirements: C++20 compiler and make.
+Requirements: C++20 compiler and make
 
 ![demo](demo.png)
 
-Installation
+Installation:
 
 ```
 make
@@ -27,4 +27,4 @@ kill %1; cp /tmp/n1.jsonl /tmp/run/
 ./kernellens-report /tmp/run
 ```
 
-Faults: `cpu`, `mem`, `disk`, `fs`, `net`, `none`. Multi-node: `./experiments/run.sh --nodes web1,web2,db1 --target db1 --fault disk`.
+Faults: `cpu`, `mem`, `disk`, `fs`, `net`, `none`. Multi-node: `./experiments/run.sh --nodes web1,web2,db1 --target db1 --fault disk`
