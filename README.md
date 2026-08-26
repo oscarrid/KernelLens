@@ -1,8 +1,8 @@
 # KernelLens
 
-Samples a Linux 5.8+ kernel, injects one controlled fault, creates a report
-
 Requirements: C++20 compiler and make.
+
+![demo](demo.png)
 
 ```
 make
