@@ -4,6 +4,8 @@ Requirements: C++20 compiler and make.
 
 ![demo](demo.png)
 
+Installation
+
 ```
 make
 sudo make install
